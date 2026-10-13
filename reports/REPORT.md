@@ -1,6 +1,6 @@
 # Lab 25B — Report
 
-**Họ tên / nhóm:** Nguyễn Anh Tú — MSSV: 2A202602881  **Commit:** cập nhật sau khi tạo commit nộp bài  **Điểm tự động (`make grade`):** 84 / 88 (4 điểm E dữ liệu ẩn không có trong repo)
+**Họ tên / nhóm:** Nguyễn Anh Tú — MSSV: 2A202602881  **Commit:** 463e623fd8b4d41d2259f2ef381cdfd7e2a45866  **Điểm tự động (`make grade`):** 84 / 88 (4 điểm E dữ liệu ẩn không có trong repo)
 
 > Mọi số dưới đây chạy lại với `seed: 25`; artifact nguồn nằm trong `reports/gameday/`, `reports/cache/`, `reports/workflows.json` và `reports/slo.json`.
 
