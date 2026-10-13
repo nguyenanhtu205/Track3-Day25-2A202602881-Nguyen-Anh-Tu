@@ -1,0 +1,86 @@
+{
+  "G2_overload_storm": {
+    "scenario": "G2_overload_storm",
+    "client": "resilient",
+    "turns": 2362,
+    "good_turns": 2303,
+    "availability": 0.975,
+    "latency_p50_s": 3.234,
+    "latency_p95_s": 21.035,
+    "latency_p99_s": 28.602,
+    "calls": 4718,
+    "attempts": 7474,
+    "amplification": 1.584,
+    "retry_ratio": 0.384,
+    "attempts_by_provider": {
+      "alpha": 5922,
+      "alpha-eu": 973,
+      "beta": 574,
+      "gamma-mini": 5
+    },
+    "errors_by_code": {
+      "api_error": 10,
+      "client_timeout": 785,
+      "overloaded_error": 1533,
+      "rate_limit_exceeded": 487
+    },
+    "give_up_reasons": {
+      "deadline": 59
+    },
+    "cost": 5678.4,
+    "cost_per_good_turn": 2.466,
+    "retry_after_violations": 0,
+    "client_error_retries": 0,
+    "incompatible_routes": 0,
+    "unneeded_failovers": 0,
+    "recovery_s": 16.0,
+    "primary_share_after_restore": 1.0,
+    "checks": {
+      "availability_min": true,
+      "amplification_max": true,
+      "recovery_s_max": true,
+      "primary_share_after_restore_min": true
+    },
+    "pass": true,
+    "runtime_s": 0.07
+  },
+  "G3_brownout": {
+    "scenario": "G3_brownout",
+    "client": "resilient",
+    "turns": 1929,
+    "good_turns": 1929,
+    "availability": 1.0,
+    "latency_p50_s": 2.924,
+    "latency_p95_s": 4.661,
+    "latency_p99_s": 5.829,
+    "calls": 3858,
+    "attempts": 4483,
+    "amplification": 1.162,
+    "retry_ratio": 0.158,
+    "attempts_by_provider": {
+      "alpha": 4450,
+      "alpha-eu": 26,
+      "beta": 7
+    },
+    "errors_by_code": {
+      "api_error": 618,
+      "rate_limit_exceeded": 7
+    },
+    "give_up_reasons": {},
+    "cost": 4478.8,
+    "cost_per_good_turn": 2.322,
+    "retry_after_violations": 0,
+    "client_error_retries": 0,
+    "incompatible_routes": 0,
+    "unneeded_failovers": 0,
+    "recovery_s": 0.0,
+    "primary_share_after_restore": 1.0,
+    "checks": {
+      "availability_min": true,
+      "retry_ratio_max": false,
+      "amplification_max": true
+    },
+    "pass": false,
+    "runtime_s": 0.04
+  }
+}

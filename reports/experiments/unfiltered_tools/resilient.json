@@ -1,0 +1,46 @@
+{
+  "G6_provider_outage": {
+    "scenario": "G6_provider_outage",
+    "client": "resilient",
+    "turns": 2385,
+    "good_turns": 2132,
+    "availability": 0.8939,
+    "latency_p50_s": 3.114,
+    "latency_p95_s": 5.65,
+    "latency_p99_s": 12.572,
+    "calls": 4517,
+    "attempts": 4726,
+    "amplification": 1.046,
+    "retry_ratio": 0.005,
+    "attempts_by_provider": {
+      "alpha": 2391,
+      "alpha-eu": 78,
+      "beta": 1787,
+      "gamma-mini": 470
+    },
+    "errors_by_code": {
+      "api_error": 10,
+      "service_unavailable": 49,
+      "client_timeout": 78,
+      "rate_limit_exceeded": 72
+    },
+    "give_up_reasons": {
+      "incompatible_model_output": 253
+    },
+    "cost": 4837.0,
+    "cost_per_good_turn": 2.269,
+    "retry_after_violations": 0,
+    "client_error_retries": 0,
+    "incompatible_routes": 253,
+    "unneeded_failovers": 0,
+    "recovery_s": 0.0,
+    "primary_share_after_restore": 1.0,
+    "checks": {
+      "availability_min": false,
+      "incompatible_routes_max": false,
+      "primary_share_after_restore_min": true
+    },
+    "pass": false,
+    "runtime_s": 0.06
+  }
+}
